@@ -1,6 +1,6 @@
-# 🎉 Optimization & User-Friendliness Summary
+# Optimization & User-Friendliness Summary
 
-## ✅ Performance Optimizations
+## Performance Optimizations
 
 ### 1. **Faster Response Time**
 - Reduced hook callback delay from 50ms → 30ms
@@ -18,7 +18,7 @@
 - Silent operation (no console spam)
 - Only shows important messages (toggle status)
 
-## 👥 User-Friendly Features
+## User-Friendly Features
 
 ### 1. **Beautiful Startup Banner**
 ```
@@ -29,12 +29,12 @@
 
 ### 2. **Clear Instructions**
 - Step-by-step usage guide on startup
-- Visual indicators (✓, ⚡, 💤, 👋)
+- Visual indicators (checkmark, lightning, sleep, wave)
 - Easy-to-understand language
 
 ### 3. **Intuitive Toggle Messages**
-- `⚡ Bangla Input: ENABLED`
-- `💤 Bangla Input: DISABLED (typing in English)`
+- `ENABLED: Bangla Input`
+- `DISABLED: Bangla Input (typing in English)`
 
 ### 4. **One-Click Launch**
 - `Start-Bangla-Keyboard.bat` for easy launching
@@ -45,7 +45,7 @@
 - **README.md**: Technical documentation for developers
 - Examples and troubleshooting included
 
-## 📦 Files for Distribution
+## Files for Distribution
 
 For non-technical users, provide these files:
 
@@ -53,14 +53,14 @@ For non-technical users, provide these files:
 2. **Start-Bangla-Keyboard.bat** - Easy launcher
 3. **USER_GUIDE.md** - Simple instructions
 
-## 🚀 How to Use (For End Users)
+## How to Use (For End Users)
 
 1. Double-click `Start-Bangla-Keyboard.bat`
 2. Type in any application
 3. Press Space to convert
 4. Press F9 to toggle
 
-## 🎯 Key Improvements
+## Key Improvements
 
 | Feature | Before | After |
 |---------|--------|-------|
@@ -71,7 +71,7 @@ For non-technical users, provide these files:
 | Error Messages | Technical errors | User-friendly |
 | Binary Size | Full debug | Optimized |
 
-## 💡 Future Enhancements (Optional)
+## Future Enhancements (Optional)
 
 - [ ] System tray icon
 - [ ] GUI settings window
@@ -83,4 +83,4 @@ For non-technical users, provide these files:
 
 ---
 
-**The application is now production-ready and user-friendly! 🎉**
+**The application is now production-ready and user-friendly!**

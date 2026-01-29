@@ -1,14 +1,14 @@
-# 🎯 Bangla Keyboard - Quick Start Guide
+# Bangla Keyboard - Quick Start Guide
 
 ## For Non-Technical Users
 
-### 📥 Installation
+### Installation
 
 1. **Download** the `keyboard_app.exe` file
 2. **Place it** in any folder (e.g., Desktop or Documents)
 3. **Double-click** `keyboard_app.exe` to start
 
-### 🚀 How to Use
+### How to Use
 
 #### Starting the App
 - Double-click `keyboard_app.exe`
@@ -34,7 +34,7 @@
 | `bhalo` | Space | `ভালো` |
 | `kemon acho` | Space (after each word) | `কেমন আছো` |
 
-### ⌨️ Keyboard Shortcuts
+### Keyboard Shortcuts
 
 | Key | Action |
 |-----|--------|
@@ -42,14 +42,14 @@
 | **Space** | Convert to Bangla |
 | **Ctrl+C** (in terminal) | Stop the app |
 
-### 💡 Tips
+### Tips
 
-- ✅ **Works everywhere**: Notepad, Word, Browser, WhatsApp Web, Facebook, etc.
-- ✅ **Type naturally**: Just type how the word sounds in English
-- ✅ **Press F9**: Quickly switch to English when needed
-- ✅ **One word at a time**: Press Space after each word for best results
+- **Works everywhere**: Notepad, Word, Browser, WhatsApp Web, Facebook, etc.
+- **Type naturally**: Just type how the word sounds in English
+- **Press F9**: Quickly switch to English when needed
+- **One word at a time**: Press Space after each word for best results
 
-### ⚠️ Troubleshooting
+### Troubleshooting
 
 **Problem**: Antivirus blocks the app
 - **Solution**: Add `keyboard_app.exe` to your antivirus exceptions
@@ -61,7 +61,7 @@
 **Problem**: App closes immediately
 - **Solution**: Open Command Prompt, navigate to the folder, and run `keyboard_app.exe` to see error messages
 
-### 🎨 Supported Languages
+### Supported Languages
 
 Currently configured for **Bangla**, but can be modified to support:
 - Hindi
@@ -74,10 +74,10 @@ Currently configured for **Bangla**, but can be modified to support:
 - Punjabi
 - Urdu
 
-### 📞 Need Help?
+### Need Help?
 
 If you have questions or issues, please contact the developer or check the README.md file for more technical details.
 
 ---
 
-**Enjoy typing in Bangla! 🇧🇩**
+**Enjoy typing in Bangla!**

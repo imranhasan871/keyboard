@@ -2,16 +2,16 @@
 
 A native Windows keyboard application that brings **Google Input Tools** transliteration to your entire system. Type phonetically in English and get Bangla (or other languages) everywhere!
 
-## 🎯 Features
+## Features
 
-- ✅ **System-wide support** - Works in ANY application (Notepad, Browser, Word, VS Code, etc.)
-- ✅ **Google Input Tools API** - Uses the same API as Google's web input tools
-- ✅ **Real-time transliteration** - Type "amar" → Press Space → Get "আমার"
-- ✅ **Toggle ON/OFF** - Press F9 to enable/disable anytime
-- ✅ **Clean Architecture** - Built with SOLID principles and proper separation of concerns
-- ✅ **Lightweight** - No heavy dependencies, just pure Go
+- **System-wide support** - Works in ANY application (Notepad, Browser, Word, VS Code, etc.)
+- **Google Input Tools API** - Uses the same API as Google's web input tools
+- **Real-time transliteration** - Type "amar" → Press Space → Get "আমার"
+- **Toggle ON/OFF** - Press F9 to enable/disable anytime
+- **Clean Architecture** - Built with SOLID principles and proper separation of concerns
+- **Lightweight** - No heavy dependencies, just pure Go
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Run the Application
 
@@ -36,7 +36,7 @@ Type: ami banglay gan gai [Space after each word]
 Result: আমি বাংলায় গান গাই
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 This project follows **Clean Architecture** principles:
 
@@ -69,7 +69,7 @@ keyboard/
 - **Interface Segregation** - Small, focused interfaces
 - **Dependency Inversion** - Core logic depends on abstractions, not implementations
 
-## 🔧 Building from Source
+## Building from Source
 
 ```powershell
 # Build
@@ -79,7 +79,7 @@ go build -o keyboard_app.exe cmd/app/main.go
 .\keyboard_app.exe
 ```
 
-## 🌍 Supported Languages
+## Supported Languages
 
 Currently configured for **Bangla** (`bn-t-i0-und`), but you can easily add:
 
@@ -98,7 +98,7 @@ To change language, edit `internal/core/services/typing_service.go` line 111:
 suggestions, err := s.suggestionService.GetSuggestions(input, "hi-t-i0-und") // Hindi
 ```
 
-## ⚠️ Important Notes
+## Important Notes
 
 ### Antivirus Warning
 Since this app uses **low-level keyboard hooks**, your antivirus might flag it as a keylogger. This is a **false positive** - the app only monitors your typing to provide transliteration. You may need to:
@@ -108,7 +108,7 @@ Since this app uses **low-level keyboard hooks**, your antivirus might flag it a
 ### Administrator Privileges
 Some applications (like Task Manager or apps running as Admin) may not receive the simulated input. This is a Windows security feature.
 
-## 🎮 Controls
+## Controls
 
 | Key | Action |
 |-----|--------|
@@ -117,7 +117,7 @@ Some applications (like Task Manager or apps running as Admin) may not receive t
 | **Space** | Commit transliteration |
 | **Backspace** | Delete characters (updates buffer) |
 
-## 🛠️ How It Works
+## How It Works
 
 1. **Keyboard Hook** - Intercepts all keyboard events globally
 2. **Character Mapping** - Converts Virtual Key codes to actual characters
@@ -125,7 +125,7 @@ Some applications (like Task Manager or apps running as Admin) may not receive t
 4. **API Call** - Fetches suggestions from Google Input Tools when you press Space
 5. **Text Replacement** - Deletes the English text and types the Bangla equivalent
 
-## 📝 Future Enhancements
+## Future Enhancements
 
 - [ ] GUI popup showing suggestions before Space press
 - [ ] Multiple suggestion selection (Tab to cycle)
